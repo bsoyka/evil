@@ -14,7 +14,7 @@ $serif-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubu
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 html,
@@ -68,6 +68,8 @@ footer {
     a {
         color: white;
         text-decoration: none;
+
+        font-size: 20px;
 
         &:hover {
             text-decoration: underline;
