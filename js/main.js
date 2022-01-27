@@ -2,6 +2,8 @@ $(".saying").flowtype({ minFont: 36 });
 $(".note").flowtype({ minFont: 18, maxFont: 28 });
 
 function generate() {
+    pa.track({name: 'Generation'});
+
     var choices = [
         "I hope the next leaf you step on isn't crunchy.",
         "I hope both sides of your pillow are warm.",
