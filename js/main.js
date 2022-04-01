@@ -31,7 +31,21 @@ function generate() {
         "I hope you get called into work on your day off.",
         "I hope the gum you chew loses its flavor within a few seconds.",
         "I hope you stutter in an argument.",
-        'I hope you use the wrong "your"/"you\'re" in an online argument.'
+        'I hope you use the wrong "your"/"you\'re" in an online argument.',
+        "I hope you get dog hair stuck on your shirt.",
+        "I hope you stub your toe at 3 am.",
+        "I hope your phone falls between the seats while you're in a car.",
+        "I hope you accidentally drink decaf coffee.",
+        "I hope your shower takes longer than usual to warm up.",
+        "I hope it takes you three tries to plug in a USB cable.",
+        "I hope you reset your password and the website tells you your new password must be different from your old one.",
+        "I hope you get a bad haircut.",
+        "I hope your sleeves get wet when you wash your hands.",
+        "I hope you connect to a Wi-Fi network and your device says there's no internet connection.",
+        "I hope a vending machine doesn't give you change.",
+        "I hope one of the lenses in your glasses pops out.",
+        "I hope your phone gets a barely noticeable crack in the screen.",
+        "I hope your pencil eraser gets so small you can't use it."
     ];
 
     $(".saying").text(choices[Math.floor(Math.random() * choices.length)]);
